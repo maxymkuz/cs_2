@@ -1,0 +1,5 @@
+cntrl + D -- dublicate a line
+
+useful- TODO at the bottom
+
+cntrl + alt + T -- expressions
