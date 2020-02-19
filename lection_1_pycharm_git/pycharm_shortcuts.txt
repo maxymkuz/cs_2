@@ -2,4 +2,9 @@ cntrl + D -- dublicate a line
 
 useful- TODO at the bottom
 
-cntrl + alt + T -- expressions
+ctrl + alt + T -- expressions
+
+shift + Enter
+
+ctrl+alt+shift + cursor -- write multiple lines
+ctrl+alt+shift+L -- format pep8
