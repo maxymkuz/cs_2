@@ -1,0 +1,796 @@
+{
+    "users": [
+        {
+            "id": 1230514441420189696,
+            "id_str": "1230514441420189696",
+            "name": "viri_aldi",
+            "screen_name": "aldi_viri",
+            "location": "Lviv",
+            "description": "LPML alumnus 2019 \ud83d\udd2d\nUCU Computer Science student \ud83d\udcbb\nIMO 2019 Silver Medalist \ud83c\udfc5\nTraveler and hiking lover \ud83c\udfd5\ud83c\udfdc\ud83c\udfde",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 10,
+            "friends_count": 13,
+            "listed_count": 0,
+            "created_at": "Thu Feb 20 15:28:09 +0000 2020",
+            "favourites_count": 0,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 2,
+            "lang": null,
+            "status": {
+                "created_at": "Mon Feb 24 10:43:16 +0000 2020",
+                "id": 1231892340870131714,
+                "id_str": "1231892340870131714",
+                "text": "@androy777 tweeting tests",
+                "truncated": false,
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "user_mentions": [
+                        {
+                            "screen_name": "androy777",
+                            "name": "and.roy",
+                            "id": 1230067977699184641,
+                            "id_str": "1230067977699184641",
+                            "indices": [
+                                0,
+                                10
+                            ]
+                        }
+                    ],
+                    "urls": []
+                },
+                "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+                "in_reply_to_status_id": 1231887859264741377,
+                "in_reply_to_status_id_str": "1231887859264741377",
+                "in_reply_to_user_id": 1230067977699184641,
+                "in_reply_to_user_id_str": "1230067977699184641",
+                "in_reply_to_screen_name": "androy777",
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 0,
+                "favorite_count": 0,
+                "favorited": false,
+                "retweeted": false,
+                "lang": "en"
+            },
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1230516475703762944/fS6oisPv_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1230516475703762944/fS6oisPv_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1230514441420189696/1582545704",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "live_following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "muting": false,
+            "blocking": false,
+            "blocked_by": false,
+            "translator_type": "none"
+        },
+        {
+            "id": 905505009667846144,
+            "id_str": "905505009667846144",
+            "name": "Surreal Memes Bot",
+            "screen_name": "MemesSurreal",
+            "location": "",
+            "description": "Bot that posts surreal memes from reddit every day, made by @graxcoding  | I own no content posted | Context: @SurrealContext",
+            "url": "https://t.co/YXQOnYxCsi",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/YXQOnYxCsi",
+                            "expanded_url": "http://reddit.com/r/surrealmemes",
+                            "display_url": "reddit.com/r/surrealmemes",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 155762,
+            "friends_count": 1,
+            "listed_count": 390,
+            "created_at": "Wed Sep 06 18:56:32 +0000 2017",
+            "favourites_count": 3,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 12745,
+            "lang": null,
+            "status": {
+                "created_at": "Sat Feb 22 15:43:08 +0000 2020",
+                "id": 1231243029815742464,
+                "id_str": "1231243029815742464",
+                "text": "My submission https://t.co/quiZHC5Jys",
+                "truncated": false,
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [],
+                    "media": [
+                        {
+                            "id": 1231243026179207168,
+                            "id_str": "1231243026179207168",
+                            "indices": [
+                                14,
+                                37
+                            ],
+                            "media_url": "http://pbs.twimg.com/media/ERZBAkeWsAA8VGs.jpg",
+                            "media_url_https": "https://pbs.twimg.com/media/ERZBAkeWsAA8VGs.jpg",
+                            "url": "https://t.co/quiZHC5Jys",
+                            "display_url": "pic.twitter.com/quiZHC5Jys",
+                            "expanded_url": "https://twitter.com/MemesSurreal/status/1231243029815742464/photo/1",
+                            "type": "photo",
+                            "sizes": {
+                                "thumb": {
+                                    "w": 150,
+                                    "h": 150,
+                                    "resize": "crop"
+                                },
+                                "medium": {
+                                    "w": 675,
+                                    "h": 1200,
+                                    "resize": "fit"
+                                },
+                                "large": {
+                                    "w": 1151,
+                                    "h": 2048,
+                                    "resize": "fit"
+                                },
+                                "small": {
+                                    "w": 382,
+                                    "h": 680,
+                                    "resize": "fit"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "extended_entities": {
+                    "media": [
+                        {
+                            "id": 1231243026179207168,
+                            "id_str": "1231243026179207168",
+                            "indices": [
+                                14,
+                                37
+                            ],
+                            "media_url": "http://pbs.twimg.com/media/ERZBAkeWsAA8VGs.jpg",
+                            "media_url_https": "https://pbs.twimg.com/media/ERZBAkeWsAA8VGs.jpg",
+                            "url": "https://t.co/quiZHC5Jys",
+                            "display_url": "pic.twitter.com/quiZHC5Jys",
+                            "expanded_url": "https://twitter.com/MemesSurreal/status/1231243029815742464/photo/1",
+                            "type": "photo",
+                            "sizes": {
+                                "thumb": {
+                                    "w": 150,
+                                    "h": 150,
+                                    "resize": "crop"
+                                },
+                                "medium": {
+                                    "w": 675,
+                                    "h": 1200,
+                                    "resize": "fit"
+                                },
+                                "large": {
+                                    "w": 1151,
+                                    "h": 2048,
+                                    "resize": "fit"
+                                },
+                                "small": {
+                                    "w": 382,
+                                    "h": 680,
+                                    "resize": "fit"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "source": "<a href=\"http://memes.com\" rel=\"nofollow\">Surreal Memes</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 56,
+                "favorite_count": 274,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": true,
+                "lang": "en"
+            },
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/944540997010231296/OBs8SCpK_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/944540997010231296/OBs8SCpK_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/905505009667846144/1504724476",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "live_following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "muting": false,
+            "blocking": false,
+            "blocked_by": false,
+            "translator_type": "none"
+        },
+        {
+            "id": 433112513,
+            "id_str": "433112513",
+            "name": "Akiyoshi Kitaoka",
+            "screen_name": "AkiyoshiKitaoka",
+            "location": "Kyoto, Japan",
+            "description": "I am an experimental psychologist who studies visual illusions as well as makes illusion artworks. #illusion #opticalillusion #perception #\u932f\u8996",
+            "url": "https://t.co/99VCRn7bRn",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/99VCRn7bRn",
+                            "expanded_url": "http://www.ritsumei.ac.jp/~akitaoka/index-e.html",
+                            "display_url": "ritsumei.ac.jp/~akitaoka/inde\u2026",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 34815,
+            "friends_count": 1006,
+            "listed_count": 402,
+            "created_at": "Sat Dec 10 04:50:54 +0000 2011",
+            "favourites_count": 24788,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 15659,
+            "lang": null,
+            "status": {
+                "created_at": "Tue Feb 25 08:42:46 +0000 2020",
+                "id": 1232224406241300480,
+                "id_str": "1232224406241300480",
+                "text": "\u52d5\u753b\u306b\u3057\u3066\u307f\u305f\u3002 https://t.co/TFYfP4N8fn",
+                "truncated": false,
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [],
+                    "media": [
+                        {
+                            "id": 1232224246899695617,
+                            "id_str": "1232224246899695617",
+                            "indices": [
+                                9,
+                                32
+                            ],
+                            "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1232224246899695617/pu/img/fmNvhcHI8f7jY4MK.jpg",
+                            "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1232224246899695617/pu/img/fmNvhcHI8f7jY4MK.jpg",
+                            "url": "https://t.co/TFYfP4N8fn",
+                            "display_url": "pic.twitter.com/TFYfP4N8fn",
+                            "expanded_url": "https://twitter.com/AkiyoshiKitaoka/status/1232224406241300480/video/1",
+                            "type": "photo",
+                            "sizes": {
+                                "thumb": {
+                                    "w": 150,
+                                    "h": 150,
+                                    "resize": "crop"
+                                },
+                                "medium": {
+                                    "w": 1200,
+                                    "h": 675,
+                                    "resize": "fit"
+                                },
+                                "small": {
+                                    "w": 680,
+                                    "h": 383,
+                                    "resize": "fit"
+                                },
+                                "large": {
+                                    "w": 1280,
+                                    "h": 720,
+                                    "resize": "fit"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "extended_entities": {
+                    "media": [
+                        {
+                            "id": 1232224246899695617,
+                            "id_str": "1232224246899695617",
+                            "indices": [
+                                9,
+                                32
+                            ],
+                            "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1232224246899695617/pu/img/fmNvhcHI8f7jY4MK.jpg",
+                            "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1232224246899695617/pu/img/fmNvhcHI8f7jY4MK.jpg",
+                            "url": "https://t.co/TFYfP4N8fn",
+                            "display_url": "pic.twitter.com/TFYfP4N8fn",
+                            "expanded_url": "https://twitter.com/AkiyoshiKitaoka/status/1232224406241300480/video/1",
+                            "type": "video",
+                            "sizes": {
+                                "thumb": {
+                                    "w": 150,
+                                    "h": 150,
+                                    "resize": "crop"
+                                },
+                                "medium": {
+                                    "w": 1200,
+                                    "h": 675,
+                                    "resize": "fit"
+                                },
+                                "small": {
+                                    "w": 680,
+                                    "h": 383,
+                                    "resize": "fit"
+                                },
+                                "large": {
+                                    "w": 1280,
+                                    "h": 720,
+                                    "resize": "fit"
+                                }
+                            },
+                            "video_info": {
+                                "aspect_ratio": [
+                                    16,
+                                    9
+                                ],
+                                "duration_millis": 50477,
+                                "variants": [
+                                    {
+                                        "bitrate": 256000,
+                                        "content_type": "video/mp4",
+                                        "url": "https://video.twimg.com/ext_tw_video/1232224246899695617/pu/vid/480x270/U49u7E-aAhg12tB9.mp4?tag=10"
+                                    },
+                                    {
+                                        "content_type": "application/x-mpegURL",
+                                        "url": "https://video.twimg.com/ext_tw_video/1232224246899695617/pu/pl/FwsdRI-d4DR4EgjN.m3u8?tag=10"
+                                    },
+                                    {
+                                        "bitrate": 2176000,
+                                        "content_type": "video/mp4",
+                                        "url": "https://video.twimg.com/ext_tw_video/1232224246899695617/pu/vid/1280x720/FF7xPVcqczP3dXsd.mp4?tag=10"
+                                    },
+                                    {
+                                        "bitrate": 832000,
+                                        "content_type": "video/mp4",
+                                        "url": "https://video.twimg.com/ext_tw_video/1232224246899695617/pu/vid/640x360/RYjASlTvJH7Vz5nH.mp4?tag=10"
+                                    }
+                                ]
+                            },
+                            "additional_media_info": {
+                                "monetizable": false
+                            }
+                        }
+                    ]
+                },
+                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                "in_reply_to_status_id": 1232221853462102016,
+                "in_reply_to_status_id_str": "1232221853462102016",
+                "in_reply_to_user_id": 433112513,
+                "in_reply_to_user_id_str": "433112513",
+                "in_reply_to_screen_name": "AkiyoshiKitaoka",
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 0,
+                "favorite_count": 3,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "ja"
+            },
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1084731935413260289/zcKsZ4eq_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1084731935413260289/zcKsZ4eq_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/433112513/1547788768",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "live_following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "muting": false,
+            "blocking": false,
+            "blocked_by": false,
+            "translator_type": "none"
+        },
+        {
+            "id": 407731807,
+            "id_str": "407731807",
+            "name": "\u0422\u0438\u043f\u0438\u0447\u043d\u044b\u0439 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442",
+            "screen_name": "tproger",
+            "location": "",
+            "description": "Tproger \u2014 \u0438\u0437\u0434\u0430\u043d\u0438\u0435 \u043e \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438.\n\u041f\u043e \u0432\u0441\u0435\u043c \u0432\u043e\u043f\u0440\u043e\u0441\u0430\u043c: admin@tproger.ru\n\u041c\u044b \u0412\u041a: https://t.co/EAzIfXew4S",
+            "url": "https://t.co/hPng4SJm6b",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/hPng4SJm6b",
+                            "expanded_url": "https://tproger.ru/",
+                            "display_url": "tproger.ru",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/EAzIfXew4S",
+                            "expanded_url": "http://vk.com/tproger",
+                            "display_url": "vk.com/tproger",
+                            "indices": [
+                                80,
+                                103
+                            ]
+                        }
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 47329,
+            "friends_count": 0,
+            "listed_count": 392,
+            "created_at": "Tue Nov 08 13:21:44 +0000 2011",
+            "favourites_count": 2,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 17684,
+            "lang": null,
+            "status": {
+                "created_at": "Tue Feb 25 09:00:45 +0000 2020",
+                "id": 1232228929110499328,
+                "id_str": "1232228929110499328",
+                "text": "\u041c\u043e\u0439 \u043a\u043e\u0434 \u043d\u0430\u043f\u0438\u0441\u0430\u043d \u043f\u043e \u0437\u0430\u0432\u0435\u0442\u0430\u043c \u043f\u0440\u043e\u0448\u043b\u043e\u0433\u043e \u0432\u0435\u043a\u0430 https://t.co/RKKHZWlqJ4",
+                "truncated": false,
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [],
+                    "media": [
+                        {
+                            "id": 1232228926228967424,
+                            "id_str": "1232228926228967424",
+                            "indices": [
+                                41,
+                                64
+                            ],
+                            "media_url": "http://pbs.twimg.com/media/ERnBrgXWsAAv9Kg.jpg",
+                            "media_url_https": "https://pbs.twimg.com/media/ERnBrgXWsAAv9Kg.jpg",
+                            "url": "https://t.co/RKKHZWlqJ4",
+                            "display_url": "pic.twitter.com/RKKHZWlqJ4",
+                            "expanded_url": "https://twitter.com/tproger/status/1232228929110499328/photo/1",
+                            "type": "photo",
+                            "sizes": {
+                                "small": {
+                                    "w": 455,
+                                    "h": 680,
+                                    "resize": "fit"
+                                },
+                                "thumb": {
+                                    "w": 150,
+                                    "h": 150,
+                                    "resize": "crop"
+                                },
+                                "medium": {
+                                    "w": 802,
+                                    "h": 1200,
+                                    "resize": "fit"
+                                },
+                                "large": {
+                                    "w": 1337,
+                                    "h": 2000,
+                                    "resize": "fit"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "extended_entities": {
+                    "media": [
+                        {
+                            "id": 1232228926228967424,
+                            "id_str": "1232228926228967424",
+                            "indices": [
+                                41,
+                                64
+                            ],
+                            "media_url": "http://pbs.twimg.com/media/ERnBrgXWsAAv9Kg.jpg",
+                            "media_url_https": "https://pbs.twimg.com/media/ERnBrgXWsAAv9Kg.jpg",
+                            "url": "https://t.co/RKKHZWlqJ4",
+                            "display_url": "pic.twitter.com/RKKHZWlqJ4",
+                            "expanded_url": "https://twitter.com/tproger/status/1232228929110499328/photo/1",
+                            "type": "photo",
+                            "sizes": {
+                                "small": {
+                                    "w": 455,
+                                    "h": 680,
+                                    "resize": "fit"
+                                },
+                                "thumb": {
+                                    "w": 150,
+                                    "h": 150,
+                                    "resize": "crop"
+                                },
+                                "medium": {
+                                    "w": 802,
+                                    "h": 1200,
+                                    "resize": "fit"
+                                },
+                                "large": {
+                                    "w": 1337,
+                                    "h": 2000,
+                                    "resize": "fit"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "source": "<a href=\"https://amplifr.com\" rel=\"nofollow\">Amplifr</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 7,
+                "favorite_count": 29,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "ru"
+            },
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "ECECEC",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/857551974442651648/D5cZLXTf_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/857551974442651648/D5cZLXTf_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/407731807/1509633410",
+            "profile_link_color": "089692",
+            "profile_sidebar_border_color": "EEEEEE",
+            "profile_sidebar_fill_color": "EFEFEF",
+            "profile_text_color": "333333",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "live_following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "muting": false,
+            "blocking": false,
+            "blocked_by": false,
+            "translator_type": "none"
+        },
+        {
+            "id": 3409898008,
+            "id_str": "3409898008",
+            "name": "\u3008 Berger | Dillon \u3009",
+            "screen_name": "InertialObservr",
+            "location": "DC \u2192 CA",
+            "description": "PhD student of Theoretical Particle Physics @UCIrvine l @NSF Fellow l Physics & Math Animations l Patreon: https://t.co/jADieIXxeu\u2026",
+            "url": "https://t.co/wun8lf3MdW",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/wun8lf3MdW",
+                            "expanded_url": "https://sites.uci.edu/inertialobserver/",
+                            "display_url": "sites.uci.edu/inertialobserv\u2026",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/jADieIXxeu",
+                            "expanded_url": "http://patreon.com/inertialobserv",
+                            "display_url": "patreon.com/inertialobserv",
+                            "indices": [
+                                107,
+                                130
+                            ]
+                        }
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 29941,
+            "friends_count": 313,
+            "listed_count": 258,
+            "created_at": "Sun Aug 09 06:22:04 +0000 2015",
+            "favourites_count": 25388,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 9940,
+            "lang": null,
+            "status": {
+                "created_at": "Mon Feb 24 21:01:04 +0000 2020",
+                "id": 1232047816798658560,
+                "id_str": "1232047816798658560",
+                "text": "@Susperion @AudioArnold @ZonePhysics bro",
+                "truncated": false,
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "user_mentions": [
+                        {
+                            "screen_name": "Susperion",
+                            "name": "Aspers",
+                            "id": 831875772336001024,
+                            "id_str": "831875772336001024",
+                            "indices": [
+                                0,
+                                10
+                            ]
+                        },
+                        {
+                            "screen_name": "AudioArnold",
+                            "name": "The Perpetual Polymath",
+                            "id": 1128323307533504512,
+                            "id_str": "1128323307533504512",
+                            "indices": [
+                                11,
+                                23
+                            ]
+                        },
+                        {
+                            "screen_name": "ZonePhysics",
+                            "name": "Physics & Astronomy Zone\ud83d\udd2d",
+                            "id": 934281246435405824,
+                            "id_str": "934281246435405824",
+                            "indices": [
+                                24,
+                                36
+                            ]
+                        }
+                    ],
+                    "urls": []
+                },
+                "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+                "in_reply_to_status_id": 1231796625040760833,
+                "in_reply_to_status_id_str": "1231796625040760833",
+                "in_reply_to_user_id": 831875772336001024,
+                "in_reply_to_user_id_str": "831875772336001024",
+                "in_reply_to_screen_name": "Susperion",
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 0,
+                "favorite_count": 22,
+                "favorited": false,
+                "retweeted": false,
+                "lang": "und"
+            },
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1211337041725788160/HRes72jR_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1211337041725788160/HRes72jR_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3409898008/1562091605",
+            "profile_link_color": "2B9E76",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "live_following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "muting": false,
+            "blocking": false,
+            "blocked_by": false,
+            "translator_type": "none"
+        }
+    ],
+    "next_cursor": 1657167740063524667,
+    "next_cursor_str": "1657167740063524667",
+    "previous_cursor": 0,
+    "previous_cursor_str": "0",
+    "total_count": null
+}
