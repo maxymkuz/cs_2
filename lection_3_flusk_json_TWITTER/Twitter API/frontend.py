@@ -3,6 +3,9 @@ import twitter
 import folium
 from geopy.geocoders import Nominatim
 
+app = Flask(__name__)
+
+
 keys = {
     "consumer_key" : "sphwjr534OVIynyBnaT6PsKdi",
     "consumer_secret" : "Yw6T6JNySGpfXfIiMikoxXqg8Ahjas7IOWcQR2og4QNr2gG7w8",
@@ -52,14 +55,16 @@ def make_map(users):
                                         icon=folium.Icon(icon='cloud',
                                                          icon_color='red')))
     m.add_child(markers)
-    m.save("map.html")
-    lines = []
-    with open("map.html") as f:
-        for line in f:
-            lines.append(line)
-    with open("templates/map.html", 'w') as f:
-        for i in lines:
-            f.write(i)
+    return m._repr_html_()
+    # m.save("map.html")
+    # lines = []
+    # with open("map.html") as f:
+    #     for line in f:
+    #         lines.append(line)
+    # with open("templates/map.html", 'w') as f:
+    #     for i in lines:
+    #         f.write(i)
+
 
 
 app = Flask(__name__)
@@ -75,8 +80,8 @@ def result():
     if request.method == 'POST':
         username = request.form['username']
         users = get_location_name(username, keys)
-        make_map(users)
-    return render_template("map.html")
+        return make_map(users)
+    # return render_template("map.html")
 
-
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run()

@@ -8,3 +8,4 @@ shift + Enter
 
 ctrl+alt+shift + cursor -- write multiple lines
 ctrl+alt+shift+L -- format pep8
+ctrl+shift+v -- clipboard
