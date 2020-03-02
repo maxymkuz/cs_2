@@ -1,56 +1,212 @@
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
-body{line-height:1; font-family: arial;}
-h1{font-size: 25px;}h2{font-size: 21px;}h3{font-size: 18px;}h4{font-size: 16px;}
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
-nav ul{list-style:none}
-blockquote,q{quotes:none}
-blockquote:before,blockquote:after,q:before,q:after{content:none}
-a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
-ins{background-color:#ff9;color:#000;text-decoration:none}
-mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
-del{text-decoration:line-through}
-abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
-table{border-collapse:collapse;border-spacing:0}
-hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
-input,select{vertical-align:middle}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent
+}
+
+body {
+    line-height: 1;
+    font-family: arial;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 21px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block
+}
+
+nav ul {
+    list-style: none
+}
+
+blockquote, q {
+    quotes: none
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent
+}
+
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none
+}
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold
+}
+
+del {
+    text-decoration: line-through
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0
+}
+
+input, select {
+    vertical-align: middle
+}
 
 /*My code::::  */
-.content{
+.content {
     font-size: 1.2em;
 }
 
-
-div[class*=box] {
-	height: 33.33%;
-	width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.note_content{
+    width: 100%
 }
 
-.box-1 { background-color: #ff9c9c; }
+.notes_container{
+    border-bottom: 1px solid #999;
+    border-top: 1px solid #999;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700italic);
+
+
+.button-two {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.sub-main {
+    width: 30%;
+    margin: 22px;
+}
+
+.button-two {
+    text-align: center;
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0 0 0 20px;
+}
+
+
+/*Button Two*/
+.button-two {
+    border-radius: 5px;
+    background-color: #d35400;
+    border: none;
+    padding: 4px;
+    width: 110px;
+    transition: all 0.5s;
+}
+
+
+.button-two span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button-two span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button-two:hover span {
+    padding-right: 25px;
+}
+
+.button-two:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+
+
+
+
+div[class*=box] {
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1 {
+    background-color: #ff9c9c;
+}
 
 
 .btn {
-	line-height: 50px;
-	height: 50px;
-	text-align: center;
-	width: 200px;
-	cursor: pointer;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
 }
 
-body,html {
-	background-color: #ff9c9c;
+body, html {
+    background-color: #ff9c9c;
 }
+
 header {
     background: #AEC6CF;
     padding: 20px 30px;
     max-width: 940px;
     margin: auto;
 }
+
 nav {
     display: inline-block;
 }
+
 nav ul li a {
     background: #EEE;
     padding: 2px 10px;
@@ -60,62 +216,73 @@ nav ul li a {
     color: #444;
     border-radius: 10px;
 }
+
 nav ul li a:hover {
-	background: #FFF;
+    background: #FFF;
 }
+
 nav ul li {
     display: inline-block;
     margin: 10px;
 }
+
 nav ul {
     list-style: none;
 }
+
 #pageContent {
     max-width: 1000px;
     margin: auto;
     border: none;
 }
+
 main {
-	float: left;
-	width: 100%;
+    float: left;
+    width: 100%;
 }
-/*aside {*/
-/*	float: right;*/
-/*	width: 30%;*/
-/*}*/
+
+
 article {
     border-bottom: 2px dotted #999;
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
+
 article h2 {
     font-weight: normal;
     margin-bottom: 12px;
 }
+
 article p {
-	
+
 }
+
 main section {
-	
+
 }
+
 footer {
-	background: #AEC6CF;
-	max-width: 1000px;
-	margin: auto;
-	clear: both;
-	text-align: right;
+    background: #AEC6CF;
+    max-width: 1000px;
+    margin: auto;
+    clear: both;
+    text-align: right;
 }
+
 footer p {
-	padding: 20px;
+    padding: 20px;
 }
+
 address {
     padding: 10px 20px 30px 10px;
 }
+
 aside > div {
-	margin: 10px auto;
-	background: #AEC6CF;
-	min-height: 100px;
+    margin: 10px auto;
+    background: #AEC6CF;
+    min-height: 100px;
 }
+
 #logo {
     display: inline-block;
     vertical-align: middle;
@@ -123,11 +290,13 @@ aside > div {
     margin-right: 75px;
     color: #FFF;
 }
+
 #logo img {
     width: 50px;
     vertical-align: middle;
     margin-right: 10px;
 }
+
 body > section {
     max-width: 1000px;
     margin: auto;
@@ -137,23 +306,23 @@ body > section {
 }
 
 @media screen and (max-width: 1000px) {
-	body > section {
-		padding: 30px 20px;
-	}
+    body > section {
+        padding: 30px 20px;
+    }
 }
+
 @media screen and (max-width: 600px) {
-	main {
-		float: none;
-		width: 100%;
-	}
-	aside {
-		float: none;
-		width: 100%;
-	}
+    main {
+        float: none;
+        width: 100%;
+    }
+
+    aside {
+        float: none;
+        width: 100%;
+    }
 
 }
-
-
 
 
 /*
@@ -162,50 +331,57 @@ body > section {
 ========================
 */
 .btn-one {
-	color: #FFF;
-	transition: all 0.3s;
-	position: relative;
+    color: #FFF;
+    transition: all 0.3s;
+    position: relative;
+    margin-bottom: 20px;
 }
+
 .btn-one span {
-	transition: all 0.3s;
+    transition: all 0.3s;
 }
+
 .btn-one::before {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	opacity: 0;
-	transition: all 0.3s;
-	border-top-width: 1px;
-	border-bottom-width: 1px;
-	border-top-style: solid;
-	border-bottom-style: solid;
-	border-top-color: rgba(255,255,255,0.5);
-	border-bottom-color: rgba(255,255,255,0.5);
-	transform: scale(0.1, 1);
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+    transform: scale(0.1, 1);
 }
+
 .btn-one:hover span {
-	letter-spacing: 2px;
+    letter-spacing: 2px;
 }
+
 .btn-one:hover::before {
-	opacity: 1;
-	transform: scale(1, 1);
+    opacity: 1;
+    transform: scale(1, 1);
 }
+
 .btn-one::after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	transition: all 0.3s;
-	background-color: rgba(255,255,255,0.1);
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    background-color: rgba(255, 255, 255, 0.1);
 }
+
 .btn-one:hover::after {
-	opacity: 0;
-	transform: scale(0.1, 1);
+    opacity: 0;
+    transform: scale(0.1, 1);
 }

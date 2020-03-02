@@ -48,15 +48,27 @@
 </section>
 <section id="pageContent">
     {% block content %}{% endblock %}
+    <main role="main">
+        {%for note in notes%}
+        <div class="notes_container">
+            <div class="note_content">
+                <h2>{{loop.index}}</h2>
+                <p class="content">{{note}}</p>
+            </div>
+            <div class="sub-main">
+                <button class="button-two"><span>Edit</span></button>
+                <button class="button-two"><span>Delete</span></button>
+            </div>
+        </div>
+        {% endfor %}
+    </main>
 </section>
 <footer>
-    <p>&copy; You can copy, edit and publish this template but please leave a link to our website | <a
-            href="https://html5-templates.com/" target="_blank" rel="nofollow">HTML5 Templates</a></p>
+    <p>&copy;Although you're pidor, I allow you to look at this genius footer</p>
     <address>
         Contact: <a href="mailto:me@example.com">Mail me</a>
     </address>
 </footer>
-
 
 
 <!--===============================================================================================-->

@@ -30,7 +30,7 @@ class Note:
     def __str__(self):
         """ Prints an object"""
         return '\n'.join([f"{self.id}. {self.memo}. TAGS: {self.tags}"
-                          f"  CREATION DATE: {self.creation_date}"])
+                          f"          CREATION DATE: {self.creation_date}"])
 
 
 class Notebook:
@@ -38,7 +38,7 @@ class Notebook:
 
     def __init__(self, notes=[]):
         self.notes = notes
-
+    
     def _find_note(self, note_id):
         """Locate the note with the given id."""
         for note in self.notes:
