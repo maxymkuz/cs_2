@@ -29,7 +29,7 @@ class Note:
 
     def __str__(self):
         """ Prints an object"""
-        return '\n'.join([f"{self.id}. {self.memo}. TAGS: {self.tags}"
+        return '\n'.join([f"{self.memo}. TAGS: {self.tags}"
                           f"          CREATION DATE: {self.creation_date}"])
 
 
@@ -42,7 +42,7 @@ class Notebook:
     def _find_note(self, note_id):
         """Locate the note with the given id."""
         for note in self.notes:
-            if str(note.id) == note_id:
+            if str(note.id) == str(note_id):
                 return note
         return None
 
@@ -56,18 +56,22 @@ class Notebook:
             self._find_note(id).modify(memo, self._find_note(id).tags)
             print("Your note has been successfully modified")
 
-
     def modify_tags(self, id, tags):
         """ Modifies the tags"""
         if self._find_note(id):
             self._find_note(id).modify(self._find_note(id).memo, tags)
             print("Your note has been successfully modified")
 
-
-
     def search(self, filter):
         """Find all notes that match the given filter"""
         return [i for i in self.notes if i.match(filter)]
+
+    def delete_note(self, note_id):
+        if self._find_note(id):
+            self.notes.remove(id)
+            print("deleted successfully")
+            # del self._find_note(id)
+
 
     # def __str__(self):
     #     return '\n'.join([f"{i.id}. {i.memo}. TAGS: {i.tags}  CREATION DATE: {i.creation_date}" for i in self.notes])

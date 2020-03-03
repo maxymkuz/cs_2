@@ -9,6 +9,7 @@ class Menu:
         """ Creates an list of options"""
         self.notebook = Notebook()
         self.dict_of_choices = {"1": self.show_notes, "2": self.search_notes,
+                                "3": self.add_note, "4": self.modify_note,
                                 "3": self.add_note, "4": self.modify_note}
 
     @staticmethod
@@ -47,10 +48,7 @@ Notebook Menu
         print('\n'.join([i.__str__() for i in self.notebook.notes
                          if i.match(filter)]))
 
-    def modify_note(self):
-        id = input("Enter a note id: ")
-        memo = input("Enter a new memo: ")
-        tags = input("Enter new tags: ")
+    def modify_note(self, id, memo, tags):
         if memo:
             self.notebook.modify_memo(id, memo)
         if tags:
@@ -61,6 +59,7 @@ Notebook Menu
         for note in self.notebook.notes:
             res.append(note.__str__())
         return res
+
 
 
 if __name__ == '__main__':

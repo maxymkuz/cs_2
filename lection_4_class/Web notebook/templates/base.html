@@ -49,16 +49,23 @@
 <section id="pageContent">
     {% block content %}{% endblock %}
     <main role="main">
-        {%for note in notes%}
+        {% for note in notes %}
         <div class="notes_container">
             <div class="note_content">
-                <h2>{{loop.index}}</h2>
-                <p class="content">{{note}}</p>
+                <h2>{{ loop.index }}</h2>
+                <p class="content">{{ note }}</p>
             </div>
-            <div class="sub-main">
-                <button class="button-two"><span>Edit</span></button>
-                <button class="button-two"><span>Delete</span></button>
-            </div>
+            <form action="/edit" method="POST" style="display: flex;">
+
+                <div class="sub-main">
+                    <input class="button-two" type="submit"
+                           name="submit_button" value="Edit note №{{ loop.index }}">
+                </div>
+                <div class="sub-main">
+                    <input class="button-two" type="submit"
+                           name="submit_button" value="Delete №{{ loop.index }}">
+                </div>
+            </form>
         </div>
         {% endfor %}
     </main>

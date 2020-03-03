@@ -12,7 +12,7 @@ class Triangle:
 
     def is_triangle(self):
         """ (Triangle) -> bool
-        Return True if it's triangle"""
+        Return True if it's a triangle"""
         distances = sorted([self.dis(self.p1, self.p2),
                             self.dis(self.p2, self.p3),
                             self.dis(self.p3, self.p1)])
@@ -27,7 +27,7 @@ class Triangle:
 
     def area(self):
         """ (Triangle) -> float
-        Return the area"""
+        Return the area of a triangle"""
         p = self.perimeter() / 2
         return (p * (p - self.dis(self.p1, self.p2)) *
                 (p - self.dis(self.p2, self.p3)) *
@@ -35,7 +35,8 @@ class Triangle:
 
     @staticmethod
     def dis(a, b):
-        """ Returns the distances between Point a and b"""
+        """ (Point, Point) -> float
+        Returns the distances between Point a and b"""
         return ((a.x - b.x) ** 2 + (a.y - b.y) ** 2) ** 0.5
 
 

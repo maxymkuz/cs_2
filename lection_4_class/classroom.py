@@ -13,11 +13,13 @@ class Classroom:
  persons and has the following equipment: {', '.join(self.equipment)}."
 
     def is_larger(self, other):
-        """Ret True if larger"""
+        """ (Classroom, Classroom) -> bool
+        Ret True if larger"""
         return self.capacity > other.capacity
 
     def equipment_differences(self, other):
-        """Returns the difference in equipments"""
+        """ (Classroom, Classroom) -> list
+        Returns the difference in equipments"""
         return [i for i in self.equipment if i not in other.equipment]
 
     def __repr__(self):
