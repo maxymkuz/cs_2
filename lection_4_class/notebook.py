@@ -68,6 +68,3 @@ class Notebook:
     def search(self, filter):
         """ Find all notes that match the given filter"""
         return [i for i in self.notes if i.match(filter)]
-
-    # def __str__(self):
-    #     return '\n'.join([f"{i.id}. {i.memo}. TAGS: {i.tags}  CREATION DATE: {i.creation_date}" for i in self.notes])

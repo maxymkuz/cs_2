@@ -40,10 +40,5 @@ class Triangle:
         return ((a.x - b.x) ** 2 + (a.y - b.y) ** 2) ** 0.5
 
 
-triangle = Triangle(point.Point(1, 1), point.Point(3, 1), point.Point(2, 3))
-print(triangle.is_triangle())
-# print(triangle.dis())
-print(triangle.perimeter())
-print(triangle.area())
 
 # Aggregation - сукупність aggregate objects can exist independently
