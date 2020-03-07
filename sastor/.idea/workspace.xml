@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e62fab3-ee00-4aaa-8dad-06636a8d5803" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sastor1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sastor2.py" afterDir="false" />
-    </list>
+    <list default="true" id="6e62fab3-ee00-4aaa-8dad-06636a8d5803" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +28,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RunManager" selected="Python.sastor2">
     <configuration name="sastor1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -96,6 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583255442421</updated>
       <workItem from="1583255444533" duration="3772000" />
+      <workItem from="1583478973294" duration="15000" />
     </task>
     <servers />
   </component>
@@ -103,6 +101,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="743" y="313" width="424" height="482" key="FileChooserDialogImpl" timestamp="1583478985169">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="743" y="313" width="424" height="482" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1583478985169" />
     <state width="1874" height="277" key="GridCell.Tab.0.bottom" timestamp="1583259248231">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -119,6 +121,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1874" height="277" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1583259248230" />
+    <state x="608" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1583478974696">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="608" y="382" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1583478974696" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sastor$sastor2.coverage" NAME="sastor2 Coverage Results" MODIFIED="1583259248210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
