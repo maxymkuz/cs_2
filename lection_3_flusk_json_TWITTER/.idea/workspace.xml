@@ -2,128 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e12cacf0-c7ce-4920-9bf7-049a50456908" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Hash Code/parser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_1_pycharm_git/pycharm_shortcuts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lection_1_pycharm_git/pycharm_shortcuts.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_2_web_maps/Lab_#2/files/chernivtsi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_2_web_maps/Lab_#2/files/input.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_2_web_maps/Lab_#2/files/locations.list" beforeDir="false" afterPath="$PROJECT_DIR$/../lection_2_web_maps/Lab_#2/files/locations.list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/first_website.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/kved.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/kved_parser_Maxym_Kuzyshyn.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/css/camera.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/css/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/css/flaticon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/css/jquery.fatNav.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/css/owl.carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/css/prettyPhoto.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/css/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/css/versions.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/fonts/Flaticon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/fonts/Flaticon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/fonts/Flaticon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/fonts/Flaticon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/country-quilt-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/dark_rounded/btnNext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/dark_rounded/btnPrevious.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/dark_rounded/contentPattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/dark_rounded/default_thumbnail.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/dark_rounded/loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/dark_rounded/sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/dark_square/btnNext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/dark_square/btnPrevious.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/dark_square/contentPattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/dark_square/default_thumbnail.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/dark_square/loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/dark_square/sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/default/default_thumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/default/loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/default/sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/default/sprite_next.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/default/sprite_prev.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/default/sprite_x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/default/sprite_y.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/facebook/btnNext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/facebook/btnPrevious.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/facebook/contentPatternBottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/facebook/contentPatternLeft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/facebook/contentPatternRight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/facebook/contentPatternTop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/facebook/default_thumbnail.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/facebook/loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/facebook/sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/light_rounded/btnNext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/light_rounded/btnPrevious.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/light_rounded/default_thumbnail.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/light_rounded/loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/light_rounded/sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/light_square/btnNext.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/light_square/btnPrevious.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/light_square/default_thumbnail.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/light_square/loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/images/prettyPhoto/light_square/sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/js/all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/js/animate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/js/contact_me.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/js/headline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/js/hoverdir.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/js/images-loded.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/js/isotope.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/js/jqBootstrapValidation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/js/jquery.appear.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/js/jquery.easing.1.3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/js/jquery.fatNav.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/js/jquery.prettyPhoto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/js/map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/js/modernizr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/js/owl.carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/js/parallaxie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/js/portfolio.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/js/retina.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/js/scroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/js/skill.bars.jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/mail/contact_me.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/uploads/about_04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/uploads/banner-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/uploads/gallery_img-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/uploads/gallery_img-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/uploads/gallery_img-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/uploads/gallery_img-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/uploads/gallery_img-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/uploads/gallery_img-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/uploads/gallery_img-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/uploads/gallery_img-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/uploads/gallery_img-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/uploads/nav-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/uploads/reviews-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/uploads/testi_01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/uploads/testi_02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/static/uploads/testi_03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lection_3_flusk_html_json/templates/second.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Twitter API/frontend.py" beforeDir="false" afterPath="$PROJECT_DIR$/Twitter API/frontend.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json_navigation.py" beforeDir="false" afterPath="$PROJECT_DIR$/json_navigation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter_api" beforeDir="false" afterPath="$PROJECT_DIR$/twitter_api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter_api/twitter2.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitter_api/twitter2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/cs_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/cs_2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lection_4_class" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
@@ -159,7 +40,7 @@
       <recent name="$PROJECT_DIR$/Twitter API" />
     </key>
   </component>
-  <component name="RunManager" selected="Flask server.Flask (Twitter API/frontend.py)">
+  <component name="RunManager" selected="Python.kved_parser_Maxym_Kuzyshyn">
     <configuration name="backend" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lection_3_flusk_json_TWITTER" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,6 +77,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json_navigation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="kved_parser_Maxym_Kuzyshyn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lection_3_flusk_json_TWITTER" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kved_parser_Maxym_Kuzyshyn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,6 +168,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.kved_parser_Maxym_Kuzyshyn" />
         <item itemvalue="Flask server.Flask (Twitter API/frontend.py)" />
         <item itemvalue="Python.json_navigation" />
         <item itemvalue="Python.backend" />
@@ -288,6 +192,7 @@
       <workItem from="1582630226113" duration="11277000" />
       <workItem from="1582654103905" duration="3792000" />
       <workItem from="1582665098828" duration="1049000" />
+      <workItem from="1583603617483" duration="669000" />
     </task>
     <servers />
   </component>
@@ -303,30 +208,34 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="743" y="313" width="424" height="482" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1582704650875" />
-    <state width="1874" height="258" key="GridCell.Tab.0.bottom" timestamp="1582704653052">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state width="1874" height="258" key="GridCell.Tab.0.bottom" timestamp="1583604289204">
+      <screen x="0" y="30" width="3840" height="1050" />
     </state>
     <state width="1874" height="277" key="GridCell.Tab.0.bottom/0.30.1920.1050/1920.0.1920.1080@0.30.1920.1050" timestamp="1582578934666" />
     <state width="1874" height="268" key="GridCell.Tab.0.bottom/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582661330774" />
-    <state width="1874" height="258" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1582704653052" />
-    <state width="1874" height="258" key="GridCell.Tab.0.center" timestamp="1582704653049">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state width="1874" height="258" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1583603631378" />
+    <state width="1874" height="258" key="GridCell.Tab.0.bottom/0.30.3840.1050@0.30.3840.1050" timestamp="1583604289204" />
+    <state width="1874" height="258" key="GridCell.Tab.0.center" timestamp="1583604289202">
+      <screen x="0" y="30" width="3840" height="1050" />
     </state>
     <state width="1874" height="277" key="GridCell.Tab.0.center/0.30.1920.1050/1920.0.1920.1080@0.30.1920.1050" timestamp="1582578934665" />
     <state width="1874" height="268" key="GridCell.Tab.0.center/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582661330774" />
-    <state width="1874" height="258" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1582704653049" />
-    <state width="1874" height="258" key="GridCell.Tab.0.left" timestamp="1582704653047">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state width="1874" height="258" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1583603631376" />
+    <state width="1874" height="258" key="GridCell.Tab.0.center/0.30.3840.1050@0.30.3840.1050" timestamp="1583604289202" />
+    <state width="1874" height="258" key="GridCell.Tab.0.left" timestamp="1583604289201">
+      <screen x="0" y="30" width="3840" height="1050" />
     </state>
     <state width="1874" height="277" key="GridCell.Tab.0.left/0.30.1920.1050/1920.0.1920.1080@0.30.1920.1050" timestamp="1582578934665" />
     <state width="1874" height="268" key="GridCell.Tab.0.left/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582661330773" />
-    <state width="1874" height="258" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1582704653047" />
-    <state width="1874" height="258" key="GridCell.Tab.0.right" timestamp="1582704653050">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state width="1874" height="258" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1583603631374" />
+    <state width="1874" height="258" key="GridCell.Tab.0.left/0.30.3840.1050@0.30.3840.1050" timestamp="1583604289201" />
+    <state width="1874" height="258" key="GridCell.Tab.0.right" timestamp="1583604289203">
+      <screen x="0" y="30" width="3840" height="1050" />
     </state>
     <state width="1874" height="277" key="GridCell.Tab.0.right/0.30.1920.1050/1920.0.1920.1080@0.30.1920.1050" timestamp="1582578934665" />
     <state width="1874" height="268" key="GridCell.Tab.0.right/0.30.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582661330774" />
-    <state width="1874" height="258" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1582704653050" />
+    <state width="1874" height="258" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1583603631377" />
+    <state width="1874" height="258" key="GridCell.Tab.0.right/0.30.3840.1050@0.30.3840.1050" timestamp="1583604289203" />
     <state x="608" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1582665098884">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -336,7 +245,8 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lection_3_flusk_json_TWITTER$twitter2.coverage" NAME="twitter2 Coverage Results" MODIFIED="1582622863952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/twitter_api" />
     <SUITE FILE_PATH="coverage/lection_3_flusk_json_TWITTER$json_navigation.coverage" NAME="json_navigation Coverage Results" MODIFIED="1582660480385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lection_3_flusk_json_TWITTER$lection_3_flusk_json_TWITTER.coverage" NAME="lection_3_flusk_json_TWITTER Coverage Results" MODIFIED="1582578793884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/lection_3_flusk_json_TWITTER$lection_3_flusk_json_TWITTER.coverage" NAME="lection_3_flusk_json_TWITTER Coverage Results" MODIFIED="1583603625695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/lection_3_flusk_json_TWITTER$kved_parser_Maxym_Kuzyshyn.coverage" NAME="kved_parser_Maxym_Kuzyshyn Coverage Results" MODIFIED="1583603631303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lection_3_flusk_json_TWITTER$Flask__Twitter_API_frontend_py_.coverage" NAME="Flask (Twitter API/frontend.py) Coverage Results" MODIFIED="1582665483562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lection_3_flusk_json_TWITTER$backend.coverage" NAME="backend Coverage Results" MODIFIED="1582641656946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Twitter API" />
   </component>
