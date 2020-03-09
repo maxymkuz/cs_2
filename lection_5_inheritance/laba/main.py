@@ -1,52 +1,60 @@
-import game
+from ma_game import Player, Location, Item, Character
 
-kitchen = game.Room("Kitchen")
-kitchen.set_description("A dank and dirty room buzzing with flies.")
+print("""Hello and welcome to my game. You have to navigate through Lviv
+to get from your current location(UCU philosophy department in Sychiv district)
+to your home, which is located at Kleparivska street.
+ 
+You start a game with 1000UAH and 100% hunger and health level
+YOU WILL DIE IF HUNGER/HEALTH LEVEL DROP TO 0!!!""")
 
-dining_hall = game.Room("Dining Hall")
-dining_hall.set_description("A large room with ornate golden decorations on each wall.")
+# ITEMS
+baseball_bat = Item("Baseball bat", "Usual baseball bat, useful when you want to beat"
+                                    " somebody who is not very strong")
 
-ballroom = game.Room("Ballroom")
-ballroom.set_description("A vast room with a shiny wooden floor. Huge candlesticks guard the entrance.")
+whiskey_bottle = Item("Bottle of whiskey", "A bottle of finest Scottish whiskey. "
+                                           "Useful for characters like Andriy Sultanov")  # TODO
 
-kitchen.link_room(dining_hall, "south")
-dining_hall.link_room(kitchen, "north")
-dining_hall.link_room(ballroom, "west")
-ballroom.link_room(dining_hall, "east")
+pack_of_cigarettes = Item("Pack of cigarettes", "Good ukrainian cigarette pack 'Parlament'."
+                                                " Useful for americans or other foreigners"
+                                                " that are smoking")
 
-dave = game.Enemy("Dave", "A smelly zombie")
-dave.set_conversation("What's up, dude! I'm hungry.")
-dave.set_weakness("cheese")
-dining_hall.set_character(dave)
+kinder_surprise = Item("Kinder-surprise", "Usual kinder-surprise from the nearest shop. "
+                                          "Is liked particularly by children.")
+# CHARACTERS
+mathew = Character("Mathew", "Teacher from America. Used to smoke 30 cigarettes per day "
+                             "but now has problems finding them in shops. That is why"
+                             "now he is ANGRY at everyone.", "Hey there you dumb", pack_of_cigarettes)
+# LOCATIONS
+ucu_hutorivka = Location("UCU philosophy department, Hutorivka 35a",
+                         "Your starting point. Here is the TRAPEZNA, where you"
+                         " can eat, price = 80UAH", pack_of_cigarettes, None, 80)
 
-tabitha = game.Enemy("Tabitha", "An enormous spider with countless eyes and furry legs.")
-tabitha.set_conversation("Sssss....I'm so bored...")
-tabitha.set_weakness("book")
-ballroom.set_character(tabitha)
+sykhivsky = Location("Sykhivsky district",
+                     "Not well discovered and tricky path. Easy to get lost"
+                     " and equally easy to get robbed.\n However the fastest and"
+                     " cheapest path so far", whiskey_bottle, None)
 
-cheese = game.Item("cheese")
-cheese.set_description("A large and smelly block of cheese")
-ballroom.set_item(cheese)
+ucu_kozelnytska = Location("UCU campus, Kozelnytska 7",
+                           "Campus where apps students are studying."
+                           "There is a Trapezna here, where you can eat, price = 100UAH",
+                           kinder_surprise, mathew, 100)
 
-book = game.Item("book")
-book.set_description("A really good book entitled 'Knitting for dummies'")
-dining_hall.set_item(book)
+ucu_hutorivka.make_directions([("east", sykhivsky), ("west", ucu_kozelnytska)])
+sykhivsky.make_directions([("west", ucu_hutorivka)])
+ucu_kozelnytska.make_directions([("east", ucu_hutorivka)])
 
-current_room = kitchen
-backpack = []
 
-dead = False
+player = Player(ucu_hutorivka)
 
-while dead == False:
-
+while not player.dead:
     print("\n")
-    current_room.get_details()
+    player.current_room.get_details()
 
-    inhabitant = current_room.get_character()
+    inhabitant = player.current_room.get_character()
     if inhabitant is not None:
         inhabitant.describe()
 
-    item = current_room.get_item()
+    item = player.current_room.get_item()
     if item is not None:
         item.describe()
 
@@ -54,7 +62,7 @@ while dead == False:
 
     if command in ["north", "south", "east", "west"]:
         # Move in the given direction
-        current_room = current_room.move(command)
+        player.current_room = player.current_room.move(command)
     elif command == "talk":
         # Talk to the inhabitant - check whether there is one!
         if inhabitant is not None:
@@ -66,11 +74,11 @@ while dead == False:
             fight_with = input()
 
             # Do I have this item?
-            if fight_with in backpack:
+            if fight_with in player.backpack:
                 if inhabitant.fight(fight_with) == True:
                     # What happens if you win?
                     print("Hooray, you won the fight!")
-                    current_room.character = None
+                    player.current_room.character = None
                     if inhabitant.get_defeated() == 2:
                         print("Congratulations, you have vanquished the enemy horde!")
                         dead = True
@@ -86,8 +94,8 @@ while dead == False:
     elif command == "take":
         if item is not None:
             print("You put the " + item.get_name() + " in your backpack")
-            backpack.append(item.get_name())
-            current_room.set_item(None)
+            player.backpack.append(item.get_name())
+            player.current_room.set_item(None)
         else:
             print("There's nothing here to take!")
     else:

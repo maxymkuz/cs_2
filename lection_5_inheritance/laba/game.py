@@ -17,13 +17,17 @@ class Item:
         return self.name
 
 
-class Character:
+won_times = 0
+
+
+class Inhabitant:
     """ An character, could be good and bad"""
 
     def __init__(self, name, description):
         self.name = name
         self.description = description
         self.conversation = ""
+        self.defeated = 0
 
     def set_conversation(self, conversation):
         """ What does the enemy say"""
@@ -35,8 +39,14 @@ class Character:
     def describe(self):
         print(f"{self.description}")
 
+    @staticmethod
+    def get_defeated(self):
+        global won_times
+        won_times += 1
+        return won_times
 
-class Enemy(Character):
+
+class Enemy(Inhabitant):
     """ Creates an instance of an enemy
     """
 
@@ -50,7 +60,10 @@ class Enemy(Character):
 
     def fight(self, item):
         """ True if user wins"""
-        return self.weakness == item
+        if self.weakness == item:
+            print(f"You fend {self.name} off with the {item}")
+            return  True
+        return False
 
 
 class Room:
