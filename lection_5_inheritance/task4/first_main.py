@@ -1,12 +1,12 @@
-import game
+from task4 import first
 
-kitchen = game.Room("Kitchen")
+kitchen = first.Room("Kitchen")
 kitchen.set_description("A dank and dirty room buzzing with flies.")
 
-dining_hall = game.Room("Dining Hall")
+dining_hall = first.Room("Dining Hall")
 dining_hall.set_description("A large room with ornate golden decorations on each wall.")
 
-ballroom = game.Room("Ballroom")
+ballroom = first.Room("Ballroom")
 ballroom.set_description("A vast room with a shiny wooden floor. Huge candlesticks guard the entrance.")
 
 kitchen.link_room(dining_hall, "south")
@@ -14,21 +14,21 @@ dining_hall.link_room(kitchen, "north")
 dining_hall.link_room(ballroom, "west")
 ballroom.link_room(dining_hall, "east")
 
-dave = game.Enemy("Dave", "A smelly zombie")
+dave = first.Enemy("Dave", "A smelly zombie")
 dave.set_conversation("What's up, dude! I'm hungry.")
 dave.set_weakness("cheese")
 dining_hall.set_character(dave)
 
-tabitha = game.Enemy("Tabitha", "An enormous spider with countless eyes and furry legs.")
+tabitha = first.Enemy("Tabitha", "An enormous spider with countless eyes and furry legs.")
 tabitha.set_conversation("Sssss....I'm so bored...")
 tabitha.set_weakness("book")
 ballroom.set_character(tabitha)
 
-cheese = game.Item("cheese")
+cheese = first.Item("cheese")
 cheese.set_description("A large and smelly block of cheese")
 ballroom.set_item(cheese)
 
-book = game.Item("book")
+book = first.Item("book")
 book.set_description("A really good book entitled 'Knitting for dummies'")
 dining_hall.set_item(book)
 

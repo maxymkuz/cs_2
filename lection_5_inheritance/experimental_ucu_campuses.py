@@ -1,4 +1,4 @@
-from ma_game import Player, Location, Item, Character
+from experimental_ma_game import Player, Location, Item, Character
 
 print("""Hello and welcome to my game. You have to navigate through Lviv
 to get from your current location(UCU philosophy department in Sychiv district)
