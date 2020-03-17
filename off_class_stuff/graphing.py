@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-# ОСЬ ЦЕ І Є АППРОКСИМАЦІЯ ДВОХ ФУНКЦІЙ:
+# АППРОКСИМАЦІЯ ДВОХ ФУНКЦІЙ:
 def approximate_point_first(x):
     res = -4  # a0/2
     for n in range(1, 8, 2):
