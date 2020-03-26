@@ -1,3 +1,6 @@
+from equation import Polynomial, Quadratic
+
+
 def testPolynomialBasics():
     # we'll use a very simple str format...
     assert (str(Polynomial([1, 2, 3])) == "Polynomial(coeffs=[1, 2, 3])")
@@ -14,6 +17,9 @@ def testPolynomialBasics():
     assert (p1.evalAt(2) == 7)
 
 
+testPolynomialBasics()
+
+
 def testPolynomialEq():
     assert (Polynomial([1, 2, 3]) == Polynomial([1, 2, 3]))
     assert (Polynomial([1, 2, 3]) != Polynomial([1, 2, 3, 0]))
@@ -23,6 +29,9 @@ def testPolynomialEq():
     assert (Polynomial([1, 2, 3]) != "Wahoo!")
     # A polynomial of degree 0 has to equal the same non-Polynomial numeric!
     assert (Polynomial([42]) == 42)
+
+
+testPolynomialEq()
 
 
 def testPolynomialConstructor():
@@ -43,6 +52,9 @@ def testPolynomialConstructor():
     assert (Polynomial(coeffs) == Polynomial([1, 2]))
 
 
+testPolynomialConstructor()
+
+
 def testPolynomialInSets():
     s = set()
     assert (Polynomial([1, 2, 3]) not in s)
@@ -50,6 +62,10 @@ def testPolynomialInSets():
     assert (Polynomial([1, 2, 3]) in s)
     assert (Polynomial([1, 2, 3]) in s)
     assert (Polynomial([1, 2]) not in s)
+    s.add(Polynomial([2, 1, 3]))
+
+
+testPolynomialInSets()
 
 
 def testPolynomialMath():
@@ -171,3 +187,7 @@ def testQuadraticClass():
 def testEquationClasses():
     testPolynomialClass()
     testQuadraticClass()
+
+
+if __name__ == '__main__':
+    testEquationClasses()
