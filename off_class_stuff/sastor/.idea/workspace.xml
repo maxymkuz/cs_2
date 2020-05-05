@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e62fab3-ee00-4aaa-8dad-06636a8d5803" name="Default Changelist" comment="" />
+    <list default="true" id="6e62fab3-ee00-4aaa-8dad-06636a8d5803" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../lection_8_gui_regex/ecosystem1.0/animals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lection_8_gui_regex/ecosystem1.0/ecosystem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lection_8_gui_regex/ecosystem1.0/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lection_8_gui_regex/ecosystem2.0/animals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lection_8_gui_regex/ecosystem2.0/ecosystem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lection_8_gui_regex/ecosystem2.0/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lection_8_gui_regex/ecosystem3.0/animals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lection_8_gui_regex/ecosystem3.0/ecosystem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lection_8_gui_regex/ecosystem3.0/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lection_9_arrays/arrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lection_9_arrays/gray_scale_compress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lection_9_arrays/grayscaleimage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lection_9_arrays/martian_encoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lection_9_arrays/my_multiset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lection_9_arrays/romaniuk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/cs_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/cs_2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/dictionaries/max.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lection_8_gui/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lection_8_gui/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lection_8_gui/.idea/lection_8_gui.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lection_8_gui/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lection_8_gui/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lection_8_gui/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lection_8_gui/in_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../lection_8_gui_regex/in_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lection_8_gui/oles.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../lection_8_gui_regex/oles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../machine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../machine_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../merge_later/after_middle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../merge_later/ecosystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test_machine.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,22 +48,22 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1YcwyHXHoOjbSduceHAar3t5OnD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../codejam_2020/2019" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Python.sastor2">
+  <component name="RunManager" selected="Python.sastor_narcoman">
     <configuration name="sastor1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="sastor" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,8 +108,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sastor_narcoman" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sastor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sastor_narcoman.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sastor_narcoman" />
         <item itemvalue="Python.sastor2" />
         <item itemvalue="Python.sastor1" />
       </list>
@@ -94,40 +150,56 @@
       <updated>1583255442421</updated>
       <workItem from="1583255444533" duration="3772000" />
       <workItem from="1583478973294" duration="15000" />
+      <workItem from="1587066594214" duration="3130000" />
+      <workItem from="1587201092399" duration="35000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="743" y="313" width="424" height="482" key="FileChooserDialogImpl" timestamp="1583478985169">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state x="2663" y="291" width="424" height="482" key="FileChooserDialogImpl" timestamp="1587201125518">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="743" y="313" width="424" height="482" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1583478985169" />
-    <state width="1874" height="277" key="GridCell.Tab.0.bottom" timestamp="1583259248231">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state x="2663" y="291" key="FileChooserDialogImpl/1920.0.1920.1080/0.30.1920.1050@1920.0.1920.1080" timestamp="1587201125518" />
+    <state width="1874" height="286" key="GridCell.Tab.0.bottom" timestamp="1587069052301">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="277" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1583259248231" />
-    <state width="1874" height="277" key="GridCell.Tab.0.center" timestamp="1583259248229">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state width="1874" height="286" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.30.1920.1050@0.30.1920.1050" timestamp="1587067616789" />
+    <state width="1874" height="286" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.30.1920.1050@1920.0.1920.1080" timestamp="1587069052301" />
+    <state width="1874" height="286" key="GridCell.Tab.0.center" timestamp="1587069052301">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="277" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1583259248229" />
-    <state width="1874" height="277" key="GridCell.Tab.0.left" timestamp="1583259248228">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state width="1874" height="286" key="GridCell.Tab.0.center/1920.0.1920.1080/0.30.1920.1050@0.30.1920.1050" timestamp="1587067616789" />
+    <state width="1874" height="286" key="GridCell.Tab.0.center/1920.0.1920.1080/0.30.1920.1050@1920.0.1920.1080" timestamp="1587069052301" />
+    <state width="1874" height="286" key="GridCell.Tab.0.left" timestamp="1587069052301">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="277" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1583259248228" />
-    <state width="1874" height="277" key="GridCell.Tab.0.right" timestamp="1583259248230">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state width="1874" height="286" key="GridCell.Tab.0.left/1920.0.1920.1080/0.30.1920.1050@0.30.1920.1050" timestamp="1587067616788" />
+    <state width="1874" height="286" key="GridCell.Tab.0.left/1920.0.1920.1080/0.30.1920.1050@1920.0.1920.1080" timestamp="1587069052301" />
+    <state width="1874" height="286" key="GridCell.Tab.0.right" timestamp="1587069052301">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1874" height="277" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1583259248230" />
+    <state width="1874" height="286" key="GridCell.Tab.0.right/1920.0.1920.1080/0.30.1920.1050@0.30.1920.1050" timestamp="1587067616789" />
+    <state width="1874" height="286" key="GridCell.Tab.0.right/1920.0.1920.1080/0.30.1920.1050@1920.0.1920.1080" timestamp="1587069052301" />
+    <state x="441" y="175" key="SettingsEditor" timestamp="1587066620959">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="441" y="175" key="SettingsEditor/1920.0.1920.1080/0.30.1920.1050@0.30.1920.1050" timestamp="1587066620959" />
     <state x="608" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1583478974696">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="608" y="382" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1583478974696" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sastor$sastor2.coverage" NAME="sastor2 Coverage Results" MODIFIED="1583259248210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sastor$sastor2.coverage" NAME="sastor2 Coverage Results" MODIFIED="1587067515004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sastor$sastor_narcoman.coverage" NAME="sastor_narcoman Coverage Results" MODIFIED="1587067695374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sastor$sastor1.coverage" NAME="sastor1 Coverage Results" MODIFIED="1583257753912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

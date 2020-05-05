@@ -5,7 +5,6 @@ from random import randint
 def compress(img):
     """
     This function should compress an Gray scale image.
-    TODO finish this function up in the future
     """
     raise NotImplementedError
 
